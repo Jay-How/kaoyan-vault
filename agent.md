@@ -1,11 +1,10 @@
 ---
 tags:
-  - config/agent
 aliases:
-  - "考研助手"
-  - "备考配置"
-created: "2025-08-20"
-updated: "2025-08-20"
+  - 考研助手
+  - 备考配置
+created: 2025-08-20
+updated: 2025-08-20
 status: active
 ---
 
