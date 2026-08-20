@@ -154,17 +154,19 @@ subject: 设计理论/设计实践/数据结构/数学/政治/英语
 
 ## 📋 模板清单
 
-| 模板 | 文件 | 用途 |
-|------|------|------|
-| 每日记录 | `Templates/daily-record.md` | 计划+执行+复盘 |
-| 每周记录 | `Templates/weekly-record.md` | 周复盘+下周计划 |
-| 每月记录 | `Templates/monthly-record.md` | 月复盘+下月计划 |
-| 年度记录 | `Templates/yearly-record.md` | 年度规划+回顾 |
-| 学习笔记 | `Templates/note.md` | 记录学习内容 |
-| 错题记录 | `Templates/error.md` | 记录错题分析 |
-| 知识卡片 | `Templates/knowledge.md` | 提炼知识要点 |
-| 经验帖 | `Templates/experience.md` | 索引经验帖 |
-| 资源索引 | `Templates/resource.md` | 索引学习资源 |
+> 所有模板使用 Templater 高级语法，插入时会弹窗提示输入
+
+| 模板 | 文件 | 用途 | 弹窗输入 |
+|------|------|------|----------|
+| 每日记录 | `Templates/daily-record.md` | 计划+执行+复盘 | 科目选择 |
+| 每周记录 | `Templates/weekly-record.md` | 周复盘+下周计划 | 自动日期 |
+| 每月记录 | `Templates/monthly-record.md` | 月复盘+下月计划 | 自动日期 |
+| 年度记录 | `Templates/yearly-record.md` | 年度规划+回顾 | 自动日期 |
+| 学习笔记 | `Templates/note.md` | 记录学习内容 | 标题、科目、章节 |
+| 错题记录 | `Templates/error.md` | 记录错题分析 | 标题、科目、来源、错误类型 |
+| 知识卡片 | `Templates/knowledge.md` | 提炼知识要点 | 标题、科目、分类 |
+| 经验帖 | `Templates/experience.md` | 索引经验帖 | 标题、作者、年份、结果 |
+| 资源索引 | `Templates/resource.md` | 索引学习资源 | 标题、类型、科目、来源 |
 
 ---
 

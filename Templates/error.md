@@ -1,49 +1,61 @@
 ---
 tags:
   - error错题
-  - {{科目英文}}{{科目中文}}
+  - <% await tp.system.suggester(
+      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"],
+      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"]
+    ) %>
 aliases:
-  - "错题：{{title}}"
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
+  - "错题：<% await tp.system.prompt("请输入错题标题") %>"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
 status: 待复习
 priority:
 source:
 type: 错题
-subject: "{{科目中文}}"
-error-source: "{{来源}}"
+subject: "<% await tp.system.suggester(
+    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"],
+    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"]
+  ) %>"
+error-type: "<% await tp.system.suggester(
+    ["计算错误", "概念混淆", "粗心大意", "知识盲区", "审题不清", "其他"],
+    ["计算错误", "概念混淆", "粗心大意", "知识盲区", "审题不清", "其他"]
+  ) %>"
 ---
 
-# ❌ {{title}}
+# ❌ <% await tp.system.prompt("请输入错题标题") %>
 
-## 📋 Problem
-> 
+## 📋 题目信息
+- **来源**：<% await tp.system.prompt("请输入题目来源（如：真题/习题/模拟题）") %>
+- **章节**：<% await tp.system.prompt("请输入所属章节") %>
+- **难度**：<% await tp.system.suggester(["简单", "中等", "困难"], ["简单", "中等", "困难"]) %>
 
-## 🚫 My Wrong Answer
+## 📝 题目内容
+> <% await tp.system.prompt("请粘贴题目内容") %>
 
+## 🚫 我的错误答案
+```
+<% await tp.system.prompt("请输入你的错误答案") %>
+```
 
-## ✅ Correct Answer
+## ✅ 正确答案
+```
+<% await tp.system.prompt("请输入正确答案") %>
+```
 
+## 💡 错误分析
 
-## 🔍 Error Analysis
-- [ ] Knowledge gap
-- [ ] Misread question
-- [ ] Calculation error
-- [ ] Concept confusion
-- [ ] Careless mistake
-- [ ] Other: __________
+### 错误原因
+<% await tp.system.prompt("请分析错误原因") %>
 
-## 💡 Solution Approach
-1. 
-2. 
-3. 
+### 正确思路
+<% await tp.system.prompt("请写出正确解题思路") %>
 
-## 🔗 Related Knowledge
-- Concept: [[]]
-- Similar Errors: [[]]
+### 知识点总结
+<% await tp.system.prompt("请总结相关知识点") %>
 
-## 📅 Review Log
-| Date | Mastered? | Notes |
-|------|-----------|-------|
-|      |           |       |
+## 🔄 复习记录
 
+| 日期 | 掌握程度 | 备注 |
+|------|----------|------|
+| <% tp.date.now("YYYY-MM-DD") %> | 初次记录 | |

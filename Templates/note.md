@@ -1,54 +1,58 @@
 ---
 tags:
   - note笔记
-  - {{科目英文}}{{科目中文}}
+  - <% await tp.system.suggester(
+      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"],
+      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"]
+    ) %>
 aliases:
-  - "{{title}}"
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
+  - "<% await tp.system.prompt("请输入笔记标题") %>"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
 status: 进行中
 priority:
 source:
 type: 笔记
-subject: "{{科目中文}}"
-chapter: "{{章节}}"
+subject: "<% await tp.system.suggester(
+    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"],
+    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"]
+  ) %>"
+chapter: "<% await tp.system.prompt("请输入章节") %>"
 ---
 
-# 📝 {{title}}
+# 📝 <% await tp.system.prompt("请输入笔记标题") %>
 
-## 📖 Core Concepts
+## 📖 核心概念
 
-### Definitions
+### 定义
 
 
-### Key Points
+### 要点
 1. 
 2. 
 3. 
 
-### Important Formulas/Principles
+### 重要公式/原理
+```
 ```
 
-```
-
-## 💡 Understanding & Reflection
+## 💡 理解与反思
 > 
 
-## 🔗 Connections
-- Related Concepts: [[]]
-- Prerequisites: [[]]
-- Further Reading: [[]]
+## 🔗 关联知识
+- 相关概念：[[]]
+- 前置知识：[[]]
+- 延伸阅读：[[]]
 
-## ❓ Open Questions
+## ❓ 开放问题
 - [ ] 
 
-## 📚 References
+## 📚 参考资料
 - 
 
 ---
 
-## 📅 Review Log
-| Date | Effectiveness | Notes |
-|------|---------------|-------|
-|      |               |       |
-
+## 📅 复习记录
+| 日期 | 效果 | 备注 |
+|------|------|------|
+| <% tp.date.now("YYYY-MM-DD") %> | 初次记录 | |

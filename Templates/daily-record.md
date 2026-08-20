@@ -2,15 +2,15 @@
 tags:
   - record记录
   - daily每日
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
-date: "{{date:YYYY-MM-DD}}"
-weekday: "{{date:dddd}}"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
+date: "<% tp.date.now("YYYY-MM-DD") %>"
+weekday: "<% tp.date.now("dddd") %>"
 status: 进行中
 type: 记录
 ---
 
-# 📅 {{date:YYYY-MM-DD dddd}} 每日记录
+# 📅 <% tp.date.now("YYYY-MM-DD dddd") %> 每日记录
 
 ## 🎯 今日计划
 - [ ] 目标1
@@ -22,7 +22,7 @@ type: 记录
 ### 上午（8:00-12:00）
 | 时间 | 科目 | 计划内容 | 执行情况 |
 |------|------|----------|----------|
-| 8:00-10:00 |  |  |  |
+| 8:00-10:00 | <% await tp.system.suggester(["数学", "数据结构", "设计理论", "英语", "政治"], ["数学", "数据结构", "设计理论", "英语", "政治"]) %> |  |  |
 | 10:00-12:00 |  |  |  |
 
 ### 下午（14:00-18:00）
@@ -49,4 +49,4 @@ type: 记录
 - **明日调整**：
 
 ---
-> 📅 {{date:YYYY-MM-DD HH:mm}} 创建
+> 📅 <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建

@@ -2,16 +2,16 @@
 tags:
   - record记录
   - weekly每周
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
-week: "{{date:gggg-[W]ww}}"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
+week: "<% tp.date.now("gggg-[W]ww") %>"
 status: 进行中
 type: 记录
 ---
 
-# 📆 {{date:YYYY}} 第 {{date:ww}} 周记录
+# 📆 <% tp.date.now("YYYY") %> 第 <% tp.date.now("ww") %> 周记录
 
-**周期**：{{date:YYYY-MM-DD}} ~ {{date+7d:YYYY-MM-DD}}
+**周期**：<% tp.date.now("YYYY-MM-DD") %> ~ <% tp.date.now("YYYY-MM-DD", 7) %>
 
 ## 📋 本周计划
 - [ ] 目标1
@@ -54,4 +54,4 @@ type: 记录
 | 周日 |  |
 
 ---
-> 📅 {{date:YYYY-MM-DD HH:mm}} 创建
+> 📅 <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建

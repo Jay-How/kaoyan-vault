@@ -2,14 +2,14 @@
 tags:
   - record记录
   - monthly每月
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
-month: "{{date:YYYY-MM}}"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
+month: "<% tp.date.now("YYYY-MM") %>"
 status: 进行中
 type: 记录
 ---
 
-# 🗓️ {{date:YYYY年MM月}} 月度记录
+# 🗓️ <% tp.date.now("YYYY年MM月") %> 月度记录
 
 ## 📋 本月计划
 
@@ -68,4 +68,4 @@ type: 记录
 - 政治：__小时
 
 ---
-> 📅 {{date:YYYY-MM-DD HH:mm}} 创建
+> 📅 <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建

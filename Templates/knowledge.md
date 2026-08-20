@@ -1,48 +1,64 @@
 ---
 tags:
   - knowledge知识
-  - {{科目英文}}{{科目中文}}
+  - <% await tp.system.suggester(
+      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"],
+      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"]
+    ) %>
 aliases:
-  - "知识：{{title}}"
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
+  - "知识：<% await tp.system.prompt("请输入知识卡片标题") %>"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
 status: 待复习
 priority:
 source:
 type: 知识
-subject: "{{科目中文}}"
-category: "{{概念/原理/方法/技巧}}"
-mastery: "了解"
+subject: "<% await tp.system.suggester(
+    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"],
+    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"]
+  ) %>"
+category: "<% await tp.system.suggester(
+    ["概念", "原理", "方法", "技巧", "公式", "定理"],
+    ["概念", "原理", "方法", "技巧", "公式", "定理"]
+  ) %>"
+mastery: 了解
 ---
 
-# 🧠 {{title}}
+# 🧠 <% await tp.system.prompt("请输入知识卡片标题") %>
 
-## 📖 Core Content
+## 📖 核心内容
 > 
 
-## 🎯 Key Points
+## 🎯 关键要点
 1. 
 2. 
 3. 
 
-## 💬 Plain Language Explanation
-> (Explain this concept in your own words)
+## 💡 理解记忆
+### 通俗解释
 
-## 🔗 Knowledge Network
-- Upper Concept: [[]]
-- Peer Concepts: [[]]
-- Lower Concepts: [[]]
-- Applications: [[]]
 
-## 📝 Typical Example
-> 
+### 记忆技巧
 
-## ✍️ Memory Aids/Tips
-> 
 
-## 📅 Spaced Repetition
-- [ ] 1st Review (3 days): {{date+3d}}
-- [ ] 2nd Review (7 days): {{date+7d}}
-- [ ] 3rd Review (15 days): {{date+15d}}
-- [ ] 4th Review (30 days): {{date+30d}}
+### 类比
 
+
+## 🔗 关联知识
+- 前置知识：[[]]
+- 相关概念：[[]]
+- 应用场景：[[]]
+
+## ❓ 常见问题
+1. **Q**: 
+   **A**: 
+
+## 📚 参考资料
+- 
+
+---
+
+## 📅 复习记录
+| 日期 | 掌握程度 | 备注 |
+|------|----------|------|
+| <% tp.date.now("YYYY-MM-DD") %> | 了解 | |

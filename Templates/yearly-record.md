@@ -2,14 +2,14 @@
 tags:
   - record记录
   - yearly年度
-created: "{{date:YYYY-MM-DD}}"
-updated: "{{date:YYYY-MM-DD}}"
-year: "{{date:YYYY}}"
+created: "<% tp.date.now("YYYY-MM-DD") %>"
+updated: "<% tp.date.now("YYYY-MM-DD") %>"
+year: "<% tp.date.now("YYYY") %>"
 status: 进行中
 type: 记录
 ---
 
-# 📆 {{date:YYYY}} 年度记录
+# 📆 <% tp.date.now("YYYY") %> 年度记录
 
 ## 🎯 年度目标
 
@@ -31,22 +31,22 @@ type: 记录
 
 ## 📅 阶段规划
 
-### 基础阶段（{{date:YYYY}}年8月 - 12月）
+### 基础阶段（<% tp.date.now("YYYY") %>年8月 - 12月）
 - [ ] 目标1
 - [ ] 目标2
 - [ ] 目标3
 
-### 强化阶段（{{date:YYYY+1}}年1月 - 6月）
+### 强化阶段（<% tp.date.now("YYYY", 1) %>年1月 - 6月）
 - [ ] 目标1
 - [ ] 目标2
 - [ ] 目标3
 
-### 冲刺阶段（{{date:YYYY+1}}年7月 - 11月）
+### 冲刺阶段（<% tp.date.now("YYYY", 1) %>年7月 - 11月）
 - [ ] 目标1
 - [ ] 目标2
 - [ ] 目标3
 
-### 考试阶段（{{date:YYYY+1}}年12月）
+### 考试阶段（<% tp.date.now("YYYY", 1) %>年12月）
 - [ ] 目标1
 - [ ] 目标2
 
@@ -86,4 +86,4 @@ type: 记录
 
 
 ---
-> 📅 {{date:YYYY-MM-DD HH:mm}} 创建
+> 📅 <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建
