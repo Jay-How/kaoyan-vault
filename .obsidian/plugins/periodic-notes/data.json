@@ -4,19 +4,19 @@
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
     "format": "YYYY-MM-DD dddd",
-    "template": "Templates/daily-record.md",
+    "template": "Templates/periodic-notes/daily-record",
     "folder": "01-Records记录/Daily每日",
     "enabled": true
   },
   "weekly": {
     "format": "YYYY-[W]ww",
-    "template": "Templates/weekly-record.md",
+    "template": "Templates/periodic-notes/weekly-record",
     "folder": "01-Records记录/Weekly每周",
     "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM",
-    "template": "Templates/monthly-record.md",
+    "template": "Templates/periodic-notes/monthly-record",
     "folder": "01-Records记录/Monthly每月",
     "enabled": true
   },
@@ -29,6 +29,6 @@
     "format": "YYYY",
     "template": "Templates/yearly-record.md",
     "folder": "01-Records记录/Yearly年度",
-    "enabled": true
+    "enabled": false
   }
 }

@@ -3,7 +3,7 @@
   "command_timeout": 5,
   "templates_folder": "Templates",
   "templates_pairs": [],
-  "trigger_on_file_creation_mode": "none",
+  "trigger_on_file_creation_mode": "folder_template",
   "auto_jump_to_cursor": false,
   "jump_to_cursor_after_file_name": false,
   "shell_path": "",

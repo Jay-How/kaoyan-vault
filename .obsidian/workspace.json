@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "552fab304af4e3ed",
+        "id": "1a072b8341b3f939",
         "type": "tabs",
         "children": [
           {
-            "id": "00d0b13ad69469bf",
+            "id": "3ca70cbbe547a4ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent/标签规范文档.md",
+                "file": "01-Records记录/Daily每日/2026-08-20 星期四.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "标签规范文档"
+              "title": "2026-08-20 星期四"
             }
           }
         ]
@@ -232,18 +232,27 @@
       "obsidian-kanban:Create new board": false,
       "realclaudian:Open Claudian": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "00d0b13ad69469bf",
+  "active": "3ca70cbbe547a4ec",
   "lastOpenFiles": [
-    "Templates/yearly-record.md",
-    "Templates/monthly-record.md",
+    "Templates/periodic-notes/monthly-record.md",
+    "01-Records记录/Daily每日/2026-08-20 星期四.md",
+    "Templates/periodic-notes/yearly-record.md",
+    "Templates/periodic-notes/weekly-record.md",
+    "Templates/periodic-notes/daily-record.md",
+    "Templates/periodic-notes",
+    "Untitled.md",
+    "2026-08-20.md",
+    "01-Records记录/Daily每日/2026-08-20.md",
+    "01-Records记录/Weekly每周/2026-W34.md",
     "Templates/weekly-record.md",
+    "Templates/monthly-record.md",
     "Templates/daily-record.md",
-    "agent.md",
     "agent/标签规范文档.md",
+    "Templates/yearly-record.md",
+    "agent.md",
     "README.md",
     "Templates/yearly-plan.md",
     "01-Records记录/Yearly年度/2026考研年度计划.md",
@@ -260,21 +269,11 @@
     "agent/plugins-guide/README.md",
     "agent/plugins-guide/RealClaudian AI助手.md",
     "agent/plugins-guide/Style Settings 样式设置.md",
-    "agent/plugins-guide/Table Editor 表格编辑器.md",
-    "agent/plugins-guide/Obsidian Kanban 看板视图.md",
-    "agent/plugins-guide/Obsidian Git 版本控制.md",
-    "agent/plugins-guide/Dataview 数据查询.md",
     "Overview总览.canvas",
-    "agent/plugins-guide/Templater 高级模板引擎.md",
     "agent/plugins-guide",
     "agent",
-    "agent/规划文档-自动化工作流设计.md",
-    "欢迎.md",
-    "Templates/experience.md",
-    "Templates/resource.md",
     "Attachments/图片/2026清华考研拟录取均分.png",
     "Attachments/图片",
-    "Attachments/学习资料/设计名词背诵.docx",
-    "Attachments/学习资料/数据结构（C语言版）（第2版）-习题答案（学生版）.doc.doc"
+    "Attachments/学习资料/设计名词背诵.docx"
   ]
 }
