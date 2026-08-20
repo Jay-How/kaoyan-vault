@@ -1,0 +1,5236 @@
+{
+  "userName": "isalone",
+  "permissionMode": "yolo",
+  "model": "pi:xiaomi/mimo-v2.5",
+  "thinkingBudget": "off",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "enabled": false,
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "customModels": "",
+      "defaultModel": "opus",
+      "lastModel": "haiku",
+      "modelEnvironmentType": "",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "",
+      "environmentHash": ""
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "customModels": "",
+      "discoveredModels": [],
+      "modelAliases": {},
+      "visibleModels": null,
+      "enableUltraEffort": false,
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "catalogTimestamp": 0,
+      "catalogFingerprint": "",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {}
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "OPENCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:deepseek/deepseek-v4-flash",
+          "id": "deepseek-v4-flash",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Flash",
+          "maxTokens": 384000,
+          "provider": "deepseek",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:deepseek/deepseek-v4-pro",
+          "id": "deepseek-v4-pro",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Pro",
+          "maxTokens": 384000,
+          "provider": "deepseek",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/google/gemma-3-12b-it",
+          "id": "google/gemma-3-12b-it",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemma 3 12B IT",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/google/gemma-3-4b-it",
+          "id": "google/gemma-3-4b-it",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemma 3 4B IT",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/meta/llama-3.1-70b-instruct",
+          "id": "meta/llama-3.1-70b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.1 70b Instruct",
+          "maxTokens": 4096,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 16000,
+          "encodedId": "pi:nvidia/meta/llama-3.1-8b-instruct",
+          "id": "meta/llama-3.1-8b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.1 8B Instruct",
+          "maxTokens": 4096,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/meta/llama-3.2-11b-vision-instruct",
+          "id": "meta/llama-3.2-11b-vision-instruct",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Llama 3.2 11b Vision Instruct",
+          "maxTokens": 4096,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/meta/llama-3.2-90b-vision-instruct",
+          "id": "meta/llama-3.2-90b-vision-instruct",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Llama-3.2-90B-Vision-Instruct",
+          "maxTokens": 8192,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/meta/llama-3.3-70b-instruct",
+          "id": "meta/llama-3.3-70b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.3 70b Instruct",
+          "maxTokens": 4096,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:nvidia/minimaxai/minimax-m3",
+          "id": "minimaxai/minimax-m3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiniMax-M3",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 65536,
+          "encodedId": "pi:nvidia/mistralai/mistral-7b-instruct-v0.3",
+          "id": "mistralai/mistral-7b-instruct-v0.3",
+          "input": [
+            "text"
+          ],
+          "label": "Mistral-7B-Instruct-v0.3",
+          "maxTokens": 65536,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:nvidia/moonshotai/kimi-k2.6",
+          "id": "moonshotai/kimi-k2.6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Kimi K2.6",
+          "maxTokens": 262144,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/nvidia/cosmos-reason2-8b",
+          "id": "nvidia/cosmos-reason2-8b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Cosmos Reason2 8B",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/nvidia/llama-3.1-nemotron-70b-instruct",
+          "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.1 Nemotron 70B Instruct",
+          "maxTokens": 8192,
+          "provider": "nvidia",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/nvidia/llama-3.1-nemotron-nano-8b-v1",
+          "id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.1 Nemotron Nano 8B v1",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 32768,
+          "encodedId": "pi:nvidia/nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+          "id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Llama 3.1 Nemotron Nano VL 8B v1",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+          "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.1 Nemotron Ultra 253B",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/nvidia/llama-3.3-nemotron-super-49b-v1",
+          "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.3 Nemotron Super 49B v1",
+          "maxTokens": 65536,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+          "input": [
+            "text"
+          ],
+          "label": "Llama 3.3 Nemotron Super 49B v1.5",
+          "maxTokens": 65536,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/nvidia/nemotron-3-nano-30b-a3b",
+          "id": "nvidia/nemotron-3-nano-30b-a3b",
+          "input": [
+            "text"
+          ],
+          "label": "nemotron-3-nano-30b-a3b",
+          "maxTokens": 131072,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 256000,
+          "encodedId": "pi:nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Nemotron 3 Nano Omni",
+          "maxTokens": 65536,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:nvidia/nvidia/nemotron-3-super-120b-a12b",
+          "id": "nvidia/nemotron-3-super-120b-a12b",
+          "input": [
+            "text"
+          ],
+          "label": "Nemotron 3 Super",
+          "maxTokens": 262144,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:nvidia/nvidia/nemotron-3-ultra-550b-a55b",
+          "id": "nvidia/nemotron-3-ultra-550b-a55b",
+          "input": [
+            "text"
+          ],
+          "label": "Nemotron 3 Ultra 550B A55B",
+          "maxTokens": 65536,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:nvidia/nvidia/nemotron-3.5-lightning-30b-a3b",
+          "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+          "input": [
+            "text"
+          ],
+          "label": "Nemotron 3.5 Lightning 30B A3B",
+          "maxTokens": 262144,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/nvidia/nemotron-nano-12b-v2-vl",
+          "id": "nvidia/nemotron-nano-12b-v2-vl",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Nemotron Nano 12B v2 VL",
+          "maxTokens": 128000,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/nvidia/nvidia-nemotron-nano-9b-v2",
+          "id": "nvidia/nvidia-nemotron-nano-9b-v2",
+          "input": [
+            "text"
+          ],
+          "label": "nvidia-nemotron-nano-9b-v2",
+          "maxTokens": 131072,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:nvidia/openai/gpt-oss-120b",
+          "id": "openai/gpt-oss-120b",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-OSS-120B",
+          "maxTokens": 8192,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/openai/gpt-oss-20b",
+          "id": "openai/gpt-oss-20b",
+          "input": [
+            "text"
+          ],
+          "label": "GPT OSS 20B",
+          "maxTokens": 32768,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:nvidia/poolside/laguna-xs-2.1",
+          "id": "poolside/laguna-xs-2.1",
+          "input": [
+            "text"
+          ],
+          "label": "Laguna XS 2.1",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 256000,
+          "encodedId": "pi:nvidia/stepfun-ai/step-3.7-flash",
+          "id": "stepfun-ai/step-3.7-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Step 3.7 Flash",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:nvidia/thinkingmachines/inkling",
+          "id": "thinkingmachines/inkling",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Inkling",
+          "maxTokens": 16384,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:nvidia/z-ai/glm-5.2",
+          "id": "z-ai/glm-5.2",
+          "input": [
+            "text"
+          ],
+          "label": "GLM-5.2",
+          "maxTokens": 131072,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:nvidia/meta/muse-glimmer-30b",
+          "id": "meta/muse-glimmer-30b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Muse Glimmer 30B",
+          "maxTokens": 131072,
+          "provider": "nvidia",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:xiaomi/mimo-v2-flash",
+          "id": "mimo-v2-flash",
+          "input": [
+            "text"
+          ],
+          "label": "MiMo-V2-Flash",
+          "maxTokens": 65536,
+          "provider": "xiaomi",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:xiaomi/mimo-v2-omni",
+          "id": "mimo-v2-omni",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiMo-V2-Omni",
+          "maxTokens": 131072,
+          "provider": "xiaomi",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:xiaomi/mimo-v2-pro",
+          "id": "mimo-v2-pro",
+          "input": [
+            "text"
+          ],
+          "label": "MiMo-V2-Pro",
+          "maxTokens": 131072,
+          "provider": "xiaomi",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:xiaomi/mimo-v2.5",
+          "id": "mimo-v2.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiMo-V2.5",
+          "maxTokens": 131072,
+          "provider": "xiaomi",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:xiaomi/mimo-v2.5-pro",
+          "id": "mimo-v2.5-pro",
+          "input": [
+            "text"
+          ],
+          "label": "MiMo-V2.5-Pro",
+          "maxTokens": 131072,
+          "provider": "xiaomi",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:xiaomi/mimo-v2.5-pro-ultraspeed",
+          "id": "mimo-v2.5-pro-ultraspeed",
+          "input": [
+            "text"
+          ],
+          "label": "MiMo-V2.5-Pro-UltraSpeed",
+          "maxTokens": 131072,
+          "provider": "xiaomi",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:stepfun/step-3.7-flash",
+          "id": "step-3.7-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "step-3.7-flash",
+          "maxTokens": 128000,
+          "provider": "stepfun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:stepfun/step-router-v1",
+          "id": "step-router-v1",
+          "input": [
+            "text"
+          ],
+          "label": "step-router-v1",
+          "maxTokens": 128000,
+          "provider": "stepfun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen-image-3.0-pro",
+          "id": "qwen-image-3.0-pro",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-3.0-pro",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen-image-3.0",
+          "id": "qwen-image-3.0",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-3.0",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.8-max",
+          "id": "qwen3.8-max",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.8-max",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/deepseek-v4-flash-0731",
+          "id": "deepseek-v4-flash-0731",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-v4-flash-0731",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen-audio-3.0-asr-flash",
+          "id": "qwen-audio-3.0-asr-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-audio-3.0-asr-flash",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-flash-2026-07-15",
+          "id": "qwen3.7-flash-2026-07-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.7-flash-2026-07-15",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-text-embedding",
+          "id": "qwen3.7-text-embedding",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.7-text-embedding",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen-audio-3.0-realtime-flash",
+          "id": "qwen-audio-3.0-realtime-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-audio-3.0-realtime-flash",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen-audio-3.0-realtime-plus",
+          "id": "qwen-audio-3.0-realtime-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-audio-3.0-realtime-plus",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-plus-2026-05-26",
+          "id": "qwen3.7-plus-2026-05-26",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.7-plus-2026-05-26",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-max-2026-05-17",
+          "id": "qwen3.7-max-2026-05-17",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.7-max-2026-05-17",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-max",
+          "id": "qwen3.7-max",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.7-max",
+          "maxTokens": 128000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/deepseek-v4-pro-0813",
+          "id": "deepseek-v4-pro-0813",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "deepseek-v4-pro-0813",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.8-2.4t-a95b",
+          "id": "qwen3.8-2.4t-a95b",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.8-2.4t-a95b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-flash",
+          "id": "qwen3.7-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.7-flash",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/kimi/kimi-k3",
+          "id": "kimi/kimi-k3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi/kimi-k3",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/glm-5.2-fast-preview",
+          "id": "glm-5.2-fast-preview",
+          "input": [
+            "text"
+          ],
+          "label": "glm-5.2-fast-preview",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/kimi/kimi-k2.7-code-highspeed",
+          "id": "kimi/kimi-k2.7-code-highspeed",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi/kimi-k2.7-code-highspeed",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1050000,
+          "encodedId": "pi:aliyun/xiaomi/mimo-v2.5-pro",
+          "id": "xiaomi/mimo-v2.5-pro",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "xiaomi/mimo-v2.5-pro",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:aliyun/MiniMax/MiniMax-M3",
+          "id": "MiniMax/MiniMax-M3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiniMax/MiniMax-M3",
+          "maxTokens": 512000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/ZHIPU/GLM-5.2",
+          "id": "ZHIPU/GLM-5.2",
+          "input": [
+            "text"
+          ],
+          "label": "ZHIPU/GLM-5.2",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-2.0-pro-2026-06-22",
+          "id": "qwen-image-2.0-pro-2026-06-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-2.0-pro-2026-06-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/test-sre-gpu-auto-handle",
+          "id": "test-sre-gpu-auto-handle",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "test-sre-gpu-auto-handle",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/fun-asr-flash-2026-06-15",
+          "id": "fun-asr-flash-2026-06-15",
+          "input": [
+            "text"
+          ],
+          "label": "fun-asr-flash-2026-06-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:aliyun/glm-5.2",
+          "id": "glm-5.2",
+          "input": [
+            "text"
+          ],
+          "label": "glm-5.2",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/kimi/kimi-k2.7-code",
+          "id": "kimi/kimi-k2.7-code",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi/kimi-k2.7-code",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/kimi-k2.7-code",
+          "id": "kimi-k2.7-code",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi-k2.7-code",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/sre-gpu-auto-handle",
+          "id": "sre-gpu-auto-handle",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "sre-gpu-auto-handle",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.7-max-2026-06-08",
+          "id": "qwen3.7-max-2026-06-08",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.7-max-2026-06-08",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-ocr",
+          "id": "qwen3.5-ocr",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.5-ocr",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.7-plus",
+          "id": "qwen3.7-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.7-plus",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.7-max-preview",
+          "id": "qwen3.7-max-preview",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.7-max-preview",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/ZHIPU/GLM-5",
+          "id": "ZHIPU/GLM-5",
+          "input": [
+            "text"
+          ],
+          "label": "ZHIPU/GLM-5",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.7-max-2026-05-20",
+          "id": "qwen3.7-max-2026-05-20",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.7-max-2026-05-20",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-livetranslate-flash-realtime-2026-05-19",
+          "id": "qwen3.5-livetranslate-flash-realtime-2026-05-19",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.5-livetranslate-flash-realtime-2026-05-19",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-livetranslate-flash-realtime",
+          "id": "qwen3.5-livetranslate-flash-realtime",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.5-livetranslate-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/ZHIPU/GLM-5.1",
+          "id": "ZHIPU/GLM-5.1",
+          "input": [
+            "text"
+          ],
+          "label": "ZHIPU/GLM-5.1",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/kimi/kimi-k2.6",
+          "id": "kimi/kimi-k2.6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi/kimi-k2.6",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:aliyun/deepseek-v4-flash",
+          "id": "deepseek-v4-flash",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-v4-flash",
+          "maxTokens": 393216,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:aliyun/deepseek-v4-pro",
+          "id": "deepseek-v4-pro",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "deepseek-v4-pro",
+          "maxTokens": 393216,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-2.0-pro-2026-04-22",
+          "id": "qwen-image-2.0-pro-2026-04-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-2.0-pro-2026-04-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-plus-2026-04-20",
+          "id": "qwen3.5-plus-2026-04-20",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-plus-2026-04-20",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.6-27b",
+          "id": "qwen3.6-27b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.6-27b",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/kimi-k2.6",
+          "id": "kimi-k2.6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi-k2.6",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.6-max-preview",
+          "id": "qwen3.6-max-preview",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3.6-max-preview",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.6-35b-a3b",
+          "id": "qwen3.6-35b-a3b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.6-35b-a3b",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.6-flash-2026-04-16",
+          "id": "qwen3.6-flash-2026-04-16",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.6-flash-2026-04-16",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.6-flash",
+          "id": "qwen3.6-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.6-flash",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/glm-5.1",
+          "id": "glm-5.1",
+          "input": [
+            "text"
+          ],
+          "label": "glm-5.1",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/vanchin/deepseek-v3.1-terminus",
+          "id": "vanchin/deepseek-v3.1-terminus",
+          "input": [
+            "text"
+          ],
+          "label": "vanchin/deepseek-v3.1-terminus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/vanchin/deepseek-v3",
+          "id": "vanchin/deepseek-v3",
+          "input": [
+            "text"
+          ],
+          "label": "vanchin/deepseek-v3",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/vanchin/deepseek-r1",
+          "id": "vanchin/deepseek-r1",
+          "input": [
+            "text"
+          ],
+          "label": "vanchin/deepseek-r1",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/vanchin/deepseek-ocr",
+          "id": "vanchin/deepseek-ocr",
+          "input": [
+            "text"
+          ],
+          "label": "vanchin/deepseek-ocr",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/vanchin/deepseek-v3.2-think",
+          "id": "vanchin/deepseek-v3.2-think",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "vanchin/deepseek-v3.2-think",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-plus-realtime-2026-03-15",
+          "id": "qwen3.5-omni-plus-realtime-2026-03-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-plus-realtime-2026-03-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-plus-realtime",
+          "id": "qwen3.5-omni-plus-realtime",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-plus-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-plus-2026-03-15",
+          "id": "qwen3.5-omni-plus-2026-03-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-plus-2026-03-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-plus",
+          "id": "qwen3.5-omni-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-flash-realtime-2026-03-15",
+          "id": "qwen3.5-omni-flash-realtime-2026-03-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-flash-realtime-2026-03-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-flash-realtime",
+          "id": "qwen3.5-omni-flash-realtime",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-flash-2026-03-15",
+          "id": "qwen3.5-omni-flash-2026-03-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-flash-2026-03-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-omni-flash",
+          "id": "qwen3.5-omni-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-omni-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.6-plus-2026-04-02",
+          "id": "qwen3.6-plus-2026-04-02",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.6-plus-2026-04-02",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.6-plus",
+          "id": "qwen3.6-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.6-plus",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/wan2.7-image-pro",
+          "id": "wan2.7-image-pro",
+          "input": [
+            "text"
+          ],
+          "label": "wan2.7-image-pro",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/wan2.7-image",
+          "id": "wan2.7-image",
+          "input": [
+            "text"
+          ],
+          "label": "wan2.7-image",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/MiniMax/MiniMax-M2.7",
+          "id": "MiniMax/MiniMax-M2.7",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiniMax/MiniMax-M2.7",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/MiniMax/speech-2.8-hd",
+          "id": "MiniMax/speech-2.8-hd",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax/speech-2.8-hd",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/MiniMax/speech-2.8-turbo",
+          "id": "MiniMax/speech-2.8-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax/speech-2.8-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/MiniMax/speech-02-turbo",
+          "id": "MiniMax/speech-02-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax/speech-02-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/MiniMax/speech-02-hd",
+          "id": "MiniMax/speech-02-hd",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax/speech-02-hd",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-deep-research-2025-12-15",
+          "id": "qwen-deep-research-2025-12-15",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-deep-research-2025-12-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-2.0-2026-03-03",
+          "id": "qwen-image-2.0-2026-03-03",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-2.0-2026-03-03",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-2.0-pro",
+          "id": "qwen-image-2.0-pro",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-2.0-pro",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-2.0-pro-2026-03-03",
+          "id": "qwen-image-2.0-pro-2026-03-03",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-2.0-pro-2026-03-03",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-2.0",
+          "id": "qwen-image-2.0",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-2.0",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-asr-flash-2026-02-10",
+          "id": "qwen3-asr-flash-2026-02-10",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-asr-flash-2026-02-10",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/glm-5",
+          "id": "glm-5",
+          "input": [
+            "text"
+          ],
+          "label": "glm-5",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-flash-character-2026-02-26",
+          "id": "qwen-flash-character-2026-02-26",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-flash-character-2026-02-26",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/MiniMax-M2.5",
+          "id": "MiniMax-M2.5",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax-M2.5",
+          "maxTokens": 196608,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-flash-2026-02-23",
+          "id": "qwen3.5-flash-2026-02-23",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-flash-2026-02-23",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.5-flash",
+          "id": "qwen3.5-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-flash",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.5-122b-a10b",
+          "id": "qwen3.5-122b-a10b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-122b-a10b",
+          "maxTokens": 81920,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.5-35b-a3b",
+          "id": "qwen3.5-35b-a3b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-35b-a3b",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.5-27b",
+          "id": "qwen3.5-27b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-27b",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3-coder-next",
+          "id": "qwen3-coder-next",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-coder-next",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3.5-397b-a17b",
+          "id": "qwen3.5-397b-a17b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-397b-a17b",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3.5-plus-2026-02-15",
+          "id": "qwen3.5-plus-2026-02-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-plus-2026-02-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3.5-plus",
+          "id": "qwen3.5-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3.5-plus",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-asr-flash-realtime-2026-02-10",
+          "id": "qwen3-asr-flash-realtime-2026-02-10",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-asr-flash-realtime-2026-02-10",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/MiniMax/MiniMax-M2.1",
+          "id": "MiniMax/MiniMax-M2.1",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax/MiniMax-M2.1",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/MiniMax/MiniMax-M2.5",
+          "id": "MiniMax/MiniMax-M2.5",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax/MiniMax-M2.5",
+          "maxTokens": 196608,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/kimi/kimi-k2.5",
+          "id": "kimi/kimi-k2.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi/kimi-k2.5",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-vd-2026-01-26",
+          "id": "qwen3-tts-vd-2026-01-26",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-vd-2026-01-26",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-instruct-flash-2026-01-26",
+          "id": "qwen3-tts-instruct-flash-2026-01-26",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-instruct-flash-2026-01-26",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-instruct-flash",
+          "id": "qwen3-tts-instruct-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-instruct-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-vc-2026-01-22",
+          "id": "qwen3-tts-vc-2026-01-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-vc-2026-01-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/glm-4.7",
+          "id": "glm-4.7",
+          "input": [
+            "text"
+          ],
+          "label": "glm-4.7",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3-max",
+          "id": "qwen3-max",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-max",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-instruct-flash-realtime-2026-01-22",
+          "id": "qwen3-tts-instruct-flash-realtime-2026-01-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-instruct-flash-realtime-2026-01-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-instruct-flash-realtime",
+          "id": "qwen3-tts-instruct-flash-realtime",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-instruct-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-vd-realtime-2026-01-15",
+          "id": "qwen3-tts-vd-realtime-2026-01-15",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-vd-realtime-2026-01-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/kimi-k2.5",
+          "id": "kimi-k2.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "kimi-k2.5",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/tongyi-xiaomi-analysis-flash",
+          "id": "tongyi-xiaomi-analysis-flash",
+          "input": [
+            "text"
+          ],
+          "label": "tongyi-xiaomi-analysis-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/tongyi-xiaomi-analysis-pro",
+          "id": "tongyi-xiaomi-analysis-pro",
+          "input": [
+            "text"
+          ],
+          "label": "tongyi-xiaomi-analysis-pro",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/siliconflow/deepseek-v3.2",
+          "id": "siliconflow/deepseek-v3.2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "siliconflow/deepseek-v3.2",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/siliconflow/deepseek-v3.1-terminus",
+          "id": "siliconflow/deepseek-v3.1-terminus",
+          "input": [
+            "text"
+          ],
+          "label": "siliconflow/deepseek-v3.1-terminus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/siliconflow/deepseek-v3-0324",
+          "id": "siliconflow/deepseek-v3-0324",
+          "input": [
+            "text"
+          ],
+          "label": "siliconflow/deepseek-v3-0324",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/siliconflow/deepseek-r1-0528",
+          "id": "siliconflow/deepseek-r1-0528",
+          "input": [
+            "text"
+          ],
+          "label": "siliconflow/deepseek-r1-0528",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:aliyun/MiniMax-M2.1",
+          "id": "MiniMax-M2.1",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax-M2.1",
+          "maxTokens": 131072,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-vl-flash-2026-01-22",
+          "id": "qwen3-vl-flash-2026-01-22",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-vl-flash-2026-01-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-max-2026-01-23",
+          "id": "qwen3-max-2026-01-23",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-max-2026-01-23",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-vc-realtime-2026-01-15",
+          "id": "qwen3-tts-vc-realtime-2026-01-15",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-vc-realtime-2026-01-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-edit-max-2026-01-16",
+          "id": "qwen-image-edit-max-2026-01-16",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-edit-max-2026-01-16",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-edit-max",
+          "id": "qwen-image-edit-max",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-edit-max",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-plus-2026-01-09",
+          "id": "qwen-image-plus-2026-01-09",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-plus-2026-01-09",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-flash-character",
+          "id": "qwen-flash-character",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-flash-character",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-max-2025-12-30",
+          "id": "qwen-image-max-2025-12-30",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-max-2025-12-30",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-max",
+          "id": "qwen-image-max",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-max",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-flash",
+          "id": "qwen-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/z-image-turbo",
+          "id": "z-image-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "z-image-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-vl-plus-2025-12-19",
+          "id": "qwen3-vl-plus-2025-12-19",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-vl-plus-2025-12-19",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-vd-realtime-2025-12-16",
+          "id": "qwen3-tts-vd-realtime-2025-12-16",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-vd-realtime-2025-12-16",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-edit-plus-2025-12-15",
+          "id": "qwen-image-edit-plus-2025-12-15",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-edit-plus-2025-12-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 163840,
+          "encodedId": "pi:aliyun/deepseek-v3.2",
+          "id": "deepseek-v3.2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "deepseek-v3.2",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-omni-flash-2025-12-01",
+          "id": "qwen3-omni-flash-2025-12-01",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-omni-flash-2025-12-01",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-omni-flash-realtime-2025-12-01",
+          "id": "qwen3-omni-flash-realtime-2025-12-01",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-omni-flash-realtime-2025-12-01",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-livetranslate-flash-2025-12-01",
+          "id": "qwen3-livetranslate-flash-2025-12-01",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-livetranslate-flash-2025-12-01",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-livetranslate-flash",
+          "id": "qwen3-livetranslate-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-livetranslate-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-2025-12-01",
+          "id": "qwen-plus-2025-12-01",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus-2025-12-01",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-vc-realtime-2025-11-27",
+          "id": "qwen3-tts-vc-realtime-2025-11-27",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-vc-realtime-2025-11-27",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-flash-2025-11-27",
+          "id": "qwen3-tts-flash-2025-11-27",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-flash-2025-11-27",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-flash-realtime-2025-11-27",
+          "id": "qwen3-tts-flash-realtime-2025-11-27",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-flash-realtime-2025-11-27",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-2025-11-05",
+          "id": "qwen-plus-2025-11-05",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus-2025-11-05",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-mt-lite",
+          "id": "qwen-mt-lite",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-mt-lite",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-vl-ocr-2025-11-20",
+          "id": "qwen-vl-ocr-2025-11-20",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-vl-ocr-2025-11-20",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/kimi-k2-thinking",
+          "id": "kimi-k2-thinking",
+          "input": [
+            "text"
+          ],
+          "label": "kimi-k2-thinking",
+          "maxTokens": 100352,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-mt-flash",
+          "id": "qwen-mt-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-mt-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/gui-plus",
+          "id": "gui-plus",
+          "input": [
+            "text"
+          ],
+          "label": "gui-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-edit-plus-2025-10-30",
+          "id": "qwen-image-edit-plus-2025-10-30",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-edit-plus-2025-10-30",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-image-edit-plus",
+          "id": "qwen-image-edit-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-image-edit-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-deep-search-planning",
+          "id": "qwen-deep-search-planning",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-deep-search-planning",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-asr-flash-realtime-2025-10-27",
+          "id": "qwen3-asr-flash-realtime-2025-10-27",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-asr-flash-realtime-2025-10-27",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-asr-flash-realtime",
+          "id": "qwen3-asr-flash-realtime",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-asr-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-vl-flash",
+          "id": "qwen3-vl-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-vl-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-vl-flash-2025-10-15",
+          "id": "qwen3-vl-flash-2025-10-15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-vl-flash-2025-10-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-flash",
+          "id": "qwen3-tts-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-flash-2025-09-18",
+          "id": "qwen3-tts-flash-2025-09-18",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-flash-2025-09-18",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-flash-realtime-2025-09-18",
+          "id": "qwen3-tts-flash-realtime-2025-09-18",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-flash-realtime-2025-09-18",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-tts-flash-realtime",
+          "id": "qwen3-tts-flash-realtime",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-tts-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-omni-flash-realtime",
+          "id": "qwen3-omni-flash-realtime",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-omni-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-omni-flash",
+          "id": "qwen3-omni-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-omni-flash",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-omni-flash-2025-09-15",
+          "id": "qwen3-omni-flash-2025-09-15",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-omni-flash-2025-09-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-omni-flash-realtime-2025-09-15",
+          "id": "qwen3-omni-flash-realtime-2025-09-15",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-omni-flash-realtime-2025-09-15",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-s2s-flash-realtime-2025-09-22",
+          "id": "qwen3-s2s-flash-realtime-2025-09-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-s2s-flash-realtime-2025-09-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-livetranslate-flash-realtime",
+          "id": "qwen3-livetranslate-flash-realtime",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-livetranslate-flash-realtime",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-livetranslate-flash-realtime-2025-09-22",
+          "id": "qwen3-livetranslate-flash-realtime-2025-09-22",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-livetranslate-flash-realtime-2025-09-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-turbo-2024-11-01",
+          "id": "qwen-turbo-2024-11-01",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-turbo-2024-11-01",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-2025-01-25",
+          "id": "qwen-plus-2025-01-25",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus-2025-01-25",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwq-plus",
+          "id": "qwq-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwq-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qvq-max",
+          "id": "qvq-max",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qvq-max",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-omni-turbo",
+          "id": "qwen-omni-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-omni-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-2025-04-28",
+          "id": "qwen-plus-2025-04-28",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus-2025-04-28",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-235b-a22b-instruct-2507",
+          "id": "qwen3-235b-a22b-instruct-2507",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-235b-a22b-instruct-2507",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3-235b-a22b-thinking-2507",
+          "id": "qwen3-235b-a22b-thinking-2507",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-235b-a22b-thinking-2507",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 81920,
+          "encodedId": "pi:aliyun/qwen3-30b-a3b-thinking-2507",
+          "id": "qwen3-30b-a3b-thinking-2507",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-30b-a3b-thinking-2507",
+          "maxTokens": 32768,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3-30b-a3b-instruct-2507",
+          "id": "qwen3-30b-a3b-instruct-2507",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-30b-a3b-instruct-2507",
+          "maxTokens": 32000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3-coder-flash",
+          "id": "qwen3-coder-flash",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-coder-flash",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-coder-plus-2025-09-23",
+          "id": "qwen3-coder-plus-2025-09-23",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-coder-plus-2025-09-23",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-max-2025-09-23",
+          "id": "qwen3-max-2025-09-23",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-max-2025-09-23",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-vl-plus",
+          "id": "qwen3-vl-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-vl-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-vl-plus-2025-09-23",
+          "id": "qwen3-vl-plus-2025-09-23",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-vl-plus-2025-09-23",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-2025-09-11",
+          "id": "qwen-plus-2025-09-11",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus-2025-09-11",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3-next-80b-a3b-thinking",
+          "id": "qwen3-next-80b-a3b-thinking",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-next-80b-a3b-thinking",
+          "maxTokens": 262144,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:aliyun/qwen3-next-80b-a3b-instruct",
+          "id": "qwen3-next-80b-a3b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-next-80b-a3b-instruct",
+          "maxTokens": 16384,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-max-preview",
+          "id": "qwen3-max-preview",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-max-preview",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 163840,
+          "encodedId": "pi:aliyun/deepseek-v3.1",
+          "id": "deepseek-v3.1",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-v3.1",
+          "maxTokens": 32768,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen3-coder-plus",
+          "id": "qwen3-coder-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-coder-plus",
+          "maxTokens": 65536,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-coder-plus-2025-07-22",
+          "id": "qwen3-coder-plus-2025-07-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-coder-plus-2025-07-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-2025-07-14",
+          "id": "qwen-plus-2025-07-14",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus-2025-07-14",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen3-coder-480b-a35b-instruct",
+          "id": "qwen3-coder-480b-a35b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-coder-480b-a35b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-mt-turbo",
+          "id": "qwen-mt-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-mt-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-mt-plus",
+          "id": "qwen-mt-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-mt-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-tts-2025-05-22",
+          "id": "qwen-tts-2025-05-22",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-tts-2025-05-22",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qvq-plus",
+          "id": "qvq-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qvq-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:aliyun/qwen3-32b",
+          "id": "qwen3-32b",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen3-32b",
+          "maxTokens": 16384,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:aliyun/qwen3-30b-a3b",
+          "id": "qwen3-30b-a3b",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-30b-a3b",
+          "maxTokens": 16384,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:aliyun/qwen3-235b-a22b",
+          "id": "qwen3-235b-a22b",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-235b-a22b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:aliyun/qwen3-14b",
+          "id": "qwen3-14b",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-14b",
+          "maxTokens": 16384,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 131072,
+          "encodedId": "pi:aliyun/qwen3-8b",
+          "id": "qwen3-8b",
+          "input": [
+            "text"
+          ],
+          "label": "qwen3-8b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 163840,
+          "encodedId": "pi:aliyun/deepseek-v3",
+          "id": "deepseek-v3",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-v3",
+          "maxTokens": 32768,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 8192,
+          "encodedId": "pi:aliyun/deepseek-r1-distill-llama-70b",
+          "id": "deepseek-r1-distill-llama-70b",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1-distill-llama-70b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/deepseek-r1-distill-qwen-32b",
+          "id": "deepseek-r1-distill-qwen-32b",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1-distill-qwen-32b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/deepseek-r1-distill-qwen-14b",
+          "id": "deepseek-r1-distill-qwen-14b",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1-distill-qwen-14b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/deepseek-r1-distill-llama-8b",
+          "id": "deepseek-r1-distill-llama-8b",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1-distill-llama-8b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/deepseek-r1-distill-qwen-1.5b",
+          "id": "deepseek-r1-distill-qwen-1.5b",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1-distill-qwen-1.5b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/deepseek-r1-distill-qwen-7b",
+          "id": "deepseek-r1-distill-qwen-7b",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1-distill-qwen-7b",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 163840,
+          "encodedId": "pi:aliyun/deepseek-r1",
+          "id": "deepseek-r1",
+          "input": [
+            "text"
+          ],
+          "label": "deepseek-r1",
+          "maxTokens": 16000,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-7b-chat",
+          "id": "qwen1.5-7b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-7b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-vl-ocr-latest",
+          "id": "qwen-vl-ocr-latest",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-vl-ocr-latest",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-vl-ocr",
+          "id": "qwen-vl-ocr",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-vl-ocr",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-coder-plus-1106",
+          "id": "qwen-coder-plus-1106",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-coder-plus-1106",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-coder-plus",
+          "id": "qwen-coder-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-coder-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2.5-1.5b-instruct",
+          "id": "qwen2.5-1.5b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2.5-1.5b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2.5-math-1.5b-instruct",
+          "id": "qwen2.5-math-1.5b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2.5-math-1.5b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-turbo-0919",
+          "id": "qwen-turbo-0919",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-turbo-0919",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2.5-0.5b-instruct",
+          "id": "qwen2.5-0.5b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2.5-0.5b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-math-plus",
+          "id": "qwen-math-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-math-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-plus-latest",
+          "id": "qwen-plus-latest",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen-plus-latest",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-math-turbo",
+          "id": "qwen-math-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-math-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-math-plus-latest",
+          "id": "qwen-math-plus-latest",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-math-plus-latest",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-math-plus-0919",
+          "id": "qwen-math-plus-0919",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-math-plus-0919",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-coder-turbo",
+          "id": "qwen-coder-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-coder-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2-1.5b-instruct",
+          "id": "qwen2-1.5b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2-1.5b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2-7b-instruct",
+          "id": "qwen2-7b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2-7b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2-57b-a14b-instruct",
+          "id": "qwen2-57b-a14b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2-57b-a14b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen2-0.5b-instruct",
+          "id": "qwen2-0.5b-instruct",
+          "input": [
+            "text"
+          ],
+          "label": "qwen2-0.5b-instruct",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-long",
+          "id": "qwen-long",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen-long",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-vl-max",
+          "id": "qwen-vl-max",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "qwen-vl-max",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-vl-plus",
+          "id": "qwen-vl-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-vl-plus",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-110b-chat",
+          "id": "qwen1.5-110b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-110b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/codeqwen1.5-7b-chat",
+          "id": "codeqwen1.5-7b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "codeqwen1.5-7b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-0.5b-chat",
+          "id": "qwen1.5-0.5b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-0.5b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-1.8b-chat",
+          "id": "qwen-1.8b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-1.8b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-1.8b-longcontext-chat",
+          "id": "qwen-1.8b-longcontext-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-1.8b-longcontext-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-7b-chat",
+          "id": "qwen-7b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-7b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-14b-chat",
+          "id": "qwen-14b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-14b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-72b-chat",
+          "id": "qwen-72b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-72b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-max-longcontext",
+          "id": "qwen-max-longcontext",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-max-longcontext",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-72b-chat",
+          "id": "qwen1.5-72b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-72b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-1.8b-chat",
+          "id": "qwen1.5-1.8b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-1.8b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-32b-chat",
+          "id": "qwen1.5-32b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-32b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen1.5-14b-chat",
+          "id": "qwen1.5-14b-chat",
+          "input": [
+            "text"
+          ],
+          "label": "qwen1.5-14b-chat",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-max-1201",
+          "id": "qwen-max-1201",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-max-1201",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-max-0107",
+          "id": "qwen-max-0107",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-max-0107",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-max",
+          "id": "qwen-max",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-max",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 128000,
+          "encodedId": "pi:aliyun/qwen-turbo",
+          "id": "qwen-turbo",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-turbo",
+          "maxTokens": 8192,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:aliyun/qwen-plus",
+          "id": "qwen-plus",
+          "input": [
+            "text"
+          ],
+          "label": "qwen-plus",
+          "maxTokens": 32768,
+          "provider": "aliyun",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
+      "enabled": true,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": [
+        "pi:xiaomi/mimo-v2.5",
+        "pi:xiaomi/mimo-v2.5-pro",
+        "pi:xiaomi/mimo-v2.5-pro-ultraspeed",
+        "pi:nvidia/nvidia/nemotron-3-ultra-550b-a55b",
+        "pi:nvidia/minimaxai/minimax-m3",
+        "pi:nvidia/thinkingmachines/inkling",
+        "pi:nvidia/z-ai/glm-5.2",
+        "pi:deepseek/deepseek-v4-flash",
+        "pi:deepseek/deepseek-v4-pro"
+      ]
+    }
+  },
+  "settingsProvider": "pi",
+  "lastSelectedChatModel": null,
+  "savedProviderModel": {
+    "claude": "haiku",
+    "pi": "pi:xiaomi/mimo-v2.5"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "pi": "high"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "pi": "yolo"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "lastCustomModel": "",
+  "maxWarmAgentProcesses": 5,
+  "enableAutoScroll": true,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableDualPane": true,
+  "enableFilePane": true,
+  "dualPaneSide": "right",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedNotePaths": [],
+  "hiddenProviderCommands": {}
+}
