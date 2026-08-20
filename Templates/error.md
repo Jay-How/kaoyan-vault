@@ -1,6 +1,7 @@
 ---
 tags:
-  - error/{{科目}}
+  - error错题
+  - {{科目英文}}{{科目中文}}
 aliases:
   - "错题：{{title}}"
 created: "{{date:YYYY-MM-DD}}"
@@ -8,7 +9,8 @@ updated: "{{date:YYYY-MM-DD}}"
 status: 待复习
 priority:
 source:
-subject: "{{科目}}"
+type: 错题
+subject: "{{科目中文}}"
 error-source: "{{来源}}"
 ---
 

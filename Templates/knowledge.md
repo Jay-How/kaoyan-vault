@@ -1,6 +1,7 @@
 ---
 tags:
-  - knowledge/{{科目}}
+  - knowledge知识
+  - {{科目英文}}{{科目中文}}
 aliases:
   - "知识：{{title}}"
 created: "{{date:YYYY-MM-DD}}"
@@ -8,7 +9,8 @@ updated: "{{date:YYYY-MM-DD}}"
 status: 待复习
 priority:
 source:
-subject: "{{科目}}"
+type: 知识
+subject: "{{科目中文}}"
 category: "{{概念/原理/方法/技巧}}"
 mastery: "了解"
 ---

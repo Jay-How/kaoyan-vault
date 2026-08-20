@@ -1,6 +1,7 @@
 ---
 tags:
-  - note/{{科目}}
+  - note笔记
+  - {{科目英文}}{{科目中文}}
 aliases:
   - "{{title}}"
 created: "{{date:YYYY-MM-DD}}"
@@ -8,7 +9,8 @@ updated: "{{date:YYYY-MM-DD}}"
 status: 进行中
 priority:
 source:
-subject: "{{科目}}"
+type: 笔记
+subject: "{{科目中文}}"
 chapter: "{{章节}}"
 ---
 

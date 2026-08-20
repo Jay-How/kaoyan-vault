@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent.md",
+                "file": "agent/标签规范文档.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agent"
+              "title": "标签规范文档"
             }
           }
         ]
@@ -238,9 +238,13 @@
   },
   "active": "00d0b13ad69469bf",
   "lastOpenFiles": [
+    "Templates/yearly-record.md",
+    "Templates/monthly-record.md",
+    "Templates/weekly-record.md",
+    "Templates/daily-record.md",
+    "agent.md",
     "agent/标签规范文档.md",
     "README.md",
-    "agent.md",
     "Templates/yearly-plan.md",
     "01-Records记录/Yearly年度/2026考研年度计划.md",
     "01-Records记录/Yearly年度",
@@ -268,13 +272,9 @@
     "欢迎.md",
     "Templates/experience.md",
     "Templates/resource.md",
-    "Templates/error.md",
-    "Templates/knowledge.md",
-    "Templates/note.md",
     "Attachments/图片/2026清华考研拟录取均分.png",
     "Attachments/图片",
     "Attachments/学习资料/设计名词背诵.docx",
-    "Attachments/学习资料/数据结构（C语言版）（第2版）-习题答案（学生版）.doc.doc",
-    "Attachments/附件索引.md"
+    "Attachments/学习资料/数据结构（C语言版）（第2版）-习题答案（学生版）.doc.doc"
   ]
 }

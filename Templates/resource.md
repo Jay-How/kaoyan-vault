@@ -1,14 +1,15 @@
 ---
 tags:
-  - resource
+  - resource资源
 aliases:
   - "资源：{{title}}"
 created: "{{date:YYYY-MM-DD}}"
 updated: "{{date:YYYY-MM-DD}}"
-status: to-process
-type: "{{考纲/真题/笔记/课件/经验帖/其他}}"
+status: 待处理
+resource-type: "{{考纲/真题/笔记/课件/经验帖/其他}}"
 subject: "{{科目}}"
 source: "{{来源渠道}}"
+type: 资源
 ---
 
 # 📚 {{title}}
