@@ -1,34 +1,34 @@
 {
   "showGettingStartedBanner": false,
-  "hasMigratedDailyNoteSettings": false,
-  "hasMigratedWeeklyNoteSettings": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
   "daily": {
-    "format": "",
-    "template": "",
-    "folder": "",
+    "format": "YYYY-MM-DD dddd",
+    "template": "Templates/daily-record.md",
+    "folder": "01-Records记录/Daily每日",
     "enabled": true
   },
   "weekly": {
-    "format": "",
-    "template": "",
-    "folder": "",
+    "format": "YYYY-[W]ww",
+    "template": "Templates/weekly-record.md",
+    "folder": "01-Records记录/Weekly每周",
     "enabled": true
   },
   "monthly": {
-    "format": "",
-    "template": "",
-    "folder": "",
+    "format": "YYYY-MM",
+    "template": "Templates/monthly-record.md",
+    "folder": "01-Records记录/Monthly每月",
     "enabled": true
   },
   "quarterly": {
-    "format": "",
+    "format": "YYYY-[Q]Q",
     "template": "",
     "folder": ""
   },
   "yearly": {
-    "format": "",
-    "template": "",
-    "folder": "",
+    "format": "YYYY",
+    "template": "Templates/yearly-record.md",
+    "folder": "01-Records记录/Yearly年度",
     "enabled": true
   }
 }
