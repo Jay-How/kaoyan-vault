@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - table-editor
+  - AI-generated人工智能生成
 aliases:
   - "Table Editor使用指南"
 created: "2025-08-20"

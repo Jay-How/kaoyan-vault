@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - periodic-notes
+  - AI-generated人工智能生成
 aliases:
   - "Periodic Notes使用指南"
 created: "2025-08-20"

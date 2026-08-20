@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - kanban
+  - AI-generated人工智能生成
 aliases:
   - "Kanban使用指南"
 created: "2025-08-20"

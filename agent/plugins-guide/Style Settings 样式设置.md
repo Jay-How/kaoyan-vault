@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - style-settings
+  - AI-generated人工智能生成
 aliases:
   - "Style Settings使用指南"
 created: "2025-08-20"

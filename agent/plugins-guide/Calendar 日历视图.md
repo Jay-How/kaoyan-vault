@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - calendar
+  - AI-generated人工智能生成
 aliases:
   - "Calendar使用指南"
 created: "2025-08-20"

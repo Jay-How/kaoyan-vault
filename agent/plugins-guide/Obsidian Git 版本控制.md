@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - git
+  - AI-generated人工智能生成
 aliases:
   - "Obsidian Git使用指南"
 created: "2025-08-20"

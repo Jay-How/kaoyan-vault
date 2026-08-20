@@ -2,8 +2,8 @@
 tags:
   - note笔记
   - <% await tp.system.suggester(
-      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"],
-      ["theory设计理论", "practice设计实践", "ds数据结构", "math数学", "politics政治", "english英语"]
+      ["politics政治", "english英语", "math数学", "ds数据结构", "hardware计算机硬件", "network网络技术", "theory设计理论", "practice设计实践"],
+      ["politics政治", "english英语", "math数学", "ds数据结构", "hardware计算机硬件", "network网络技术", "theory设计理论", "practice设计实践"]
     ) %>
 aliases:
   - "<% await tp.system.prompt("请输入笔记标题") %>"
@@ -14,8 +14,8 @@ priority:
 source:
 type: 笔记
 subject: "<% await tp.system.suggester(
-    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"],
-    ["设计理论", "设计实践", "数据结构", "数学", "政治", "英语"]
+    ["政治", "英语", "数学", "数据结构", "计算机硬件", "网络技术", "设计理论", "设计实践"],
+    ["政治", "英语", "数学", "数据结构", "计算机硬件", "网络技术", "设计理论", "设计实践"]
   ) %>"
 chapter: "<% await tp.system.prompt("请输入章节") %>"
 ---

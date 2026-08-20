@@ -2,6 +2,7 @@
 tags:
   - plugin-guide
   - templater
+  - AI-generated人工智能生成
 aliases:
   - "Templater使用指南"
 created: "2025-08-20"
