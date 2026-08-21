@@ -80,11 +80,6 @@ kaoyan-vault/
 │   ├── 05-官方文件/
 │   └── 06-其他/
 ├── 07-Interview复试/      # 🎤 复试准备
-├── Kanban看板/            # 📊 任务看板系统
-│   ├── Plan计划.md
-│   ├── ToDo待办.md
-│   ├── Doing进行中.md
-│   └── Done已完成.md
 ├── Templates/             # 📋 模板库
 ├── Attachments/           # 📎 附件
 └── agent/                 # 🤖 规范与指南
@@ -158,23 +153,20 @@ subject: 政治/英语/数学/数据结构/计算机硬件/网络技术/设计�
 | [[agent/ref参考/标签速查\|标签速查]] | 标签快速参考 |
 | [[agent/ref参考/模板清单\|模板清单]] | 模板列表和用途 |
 | [[agent/ref参考/常用查询\|常用查询]] | Dataview 查询示例 |
-| [[工作流\|工作流]] | 学习流程说明 |
+| [[agent/workflows工作流/工作流\|工作流]] | 学习流程说明 |
 | [[agent/ref参考/经验教训\|经验教训]] | 实战案例和踩坑记录 |
 
 ### 插件指南
 
 | 文档 | 说明 |
 |------|------|
-| [[README\|插件索引]] | 9个插件使用指南 |
+| [[agent/plugins-guide插件使用指导/README\|插件索引]] | 9个插件使用指南 |
 
 ### Kanban看板系统
 
 | 文档 | 说明 |
 |------|------|
-| [[Kanban看板/Plan计划\|Plan计划]] | 长期规划和里程碑 |
-| [[Kanban看板/ToDo待办\|ToDo待办]] | 待办任务清单 |
-| [[Kanban看板/Doing进行中\|Doing进行中]] | 当前进行中的任务 |
-| [[Kanban看板/Done已完成\|Done已完成]] | 已完成任务记录 |
+| [[01-Records记录/考研Kanban系统\|Kanban看板]] | 任务看板系统（Plan/ToDo/Doing/Done） |
 
 ### 月度计划
 
