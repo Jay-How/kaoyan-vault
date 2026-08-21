@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51fe3160f0787544",
+        "id": "a7490f7122a10358",
         "type": "tabs",
         "children": [
           {
-            "id": "4fcf80b676b5a41c",
+            "id": "a272d97e2163b242",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent.md",
+                "file": "03-Exams真题/互联网 + 创新设计专业基础综合/843真题参考答案2020-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agent"
+              "title": "843真题参考答案2020-2025"
             }
           }
         ]
@@ -201,30 +201,20 @@
               "icon": "bot",
               "title": "Claudian"
             }
-          },
-          {
-            "id": "eddc86642e2d2446",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
         "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 363.08984375
+    "width": 631.34375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
@@ -237,43 +227,43 @@
   },
   "active": "b8a2bbfe23de0289",
   "lastOpenFiles": [
-    "agent/ref参考/系统提示词.md",
-    "06-Resources资源/03-经验帖/其他经验帖索引.md",
-    "06-Resources资源/02-真题解析/843参考解析.md",
-    "06-Resources资源/04-学习资料/设计名词背诵.md",
-    "06-Resources资源/04-学习资料/数据结构习题答案.md",
-    "06-Resources资源/05-官方文件/清华大学复试录取实施细则.md",
-    "06-Resources资源/03-经验帖/IMDT备考指南.md",
-    "06-Resources资源/03-经验帖/忆南-IMDT初试百科全书.md",
-    "06-Resources资源/02-真题解析/843真题参考答案2020-2025.md",
-    "06-Resources资源/02-真题解析/2023专业课试题回忆.md",
-    "06-Resources资源/02-真题解析/2022专业课试题回忆.md",
-    "06-Resources资源/01-考纲大纲/843互联网创新设计考纲.md",
-    "06-Resources资源/01-考纲大纲/2027新考试大纲.md",
-    "06-Resources资源/01-考纲大纲/26考研数学大纲.md",
-    "06-Resources资源/06-其他",
-    "06-Resources资源/05-官方文件",
-    "06-Resources资源/04-学习资料",
-    "06-Resources资源/03-经验帖",
-    "06-Resources资源/02-真题解析",
-    "06-Resources资源/01-考纲大纲",
-    "agent/ref参考/经验教训.md",
-    "agent/ref参考/工作流.md",
-    "agent/ref参考/标签速查.md",
-    "agent/ref参考/模板清单.md",
-    "agent/ref参考/常用查询.md",
-    "agent/rules规范/Git规范.md",
-    "agent/rules规范/变更管理.md",
-    "agent/ref参考",
-    "agent/rules规范",
-    "02-Notes笔记/03-数学/第一章习题.md",
-    "02-Notes笔记/03-数学/5 连续.md",
-    "02-Notes笔记/03-数学/4 极限.md",
-    "02-Notes笔记/03-数学/3 函数.md",
-    "02-Notes笔记/03-数学/2 映射.md",
-    "02-Notes笔记/04-专业课/设计理论",
-    "02-Notes笔记/04-专业课/设计实践",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2008年考研政治真题及答案解析.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2007年考研政治真题及答案解析.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2006年考研政治真题及答案解析.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2005年考研政治真题及答案解析.docx",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2004年考研政治真题及答案解析.docx",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2003年考研政治真题及答案解析.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2002年政治考研真题(理科)及参考答案.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2002年政治考研真题(文科)及参考答案.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2001年政治考研真题(理科)及参考答案.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2001年政治考研真题(文科)及参考答案.doc",
+    "Attachments附件/真题解析/01-政治/2009年以前/真题及解析/2000年政治考研真题(理科)及参考答案.doc",
+    "Attachments附件/真题解析/README.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2025年843真题-解析.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2025年843真题.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2021年843真题-解析.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2021年843真题.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2025年843真题-原始备份.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2024年843真题-解析.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2024年843真题-原始备份.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2023年843真题-解析.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2023年843真题-原始备份.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2022年843真题-解析.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2022年843真题-原始备份.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2020年843真题-解析.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2021年843真题-原始备份.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2020年843真题-原始备份.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2020年843真题.md",
+    "Templates/exam.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/843真题参考答案2020-2025.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2022年843真题.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2024年843真题.md",
+    "03-Exams真题/互联网 + 创新设计专业基础综合/2023年843真题.md",
+    "05-Resources资源/05-官方文件/2027考研时间安排与分数线.md",
+    "01-Records记录/考研Kanban系统.md",
+    "01-Records记录/Monthly每月/2026-12.md",
+    "01-Records记录/Monthly每月/2026-11.md",
     "Overview总览.canvas",
-    "Attachments/图片/2026清华考研拟录取均分.png"
+    "Attachments附件/图片/2026清华考研拟录取均分.png"
   ]
 }

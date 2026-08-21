@@ -11,5 +11,6 @@
       "prompt": "{file:/Users/isalone/Desktop/kaoyan-vault/.claudian/opencode/metadata/system.md}"
     }
   },
-  "default_agent": "claudian-execution-passive"
+  "default_agent": "claudian-execution-passive",
+  "username": "isalone"
 }
