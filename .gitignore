@@ -5,9 +5,11 @@
 .obsidian/plugins/*/data.json
 .obsidian/cache/
 .obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-icon-folder/
 
 # Claudian AI助手配置
 .claudian/
+.claudian/claudian-settings.json
 
 # 临时文件
 temp_*.txt
@@ -21,5 +23,3 @@ Thumbs.db
 *.swp
 *.swo
 *~
-/.claudian/claudian-settings.json
-/.obsidian/app.json
