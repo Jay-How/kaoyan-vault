@@ -1,59 +1,25 @@
 ---
 
-kanban-plugin: board
+kanban-plugin: list
 
 ---
 
 ## Plan计划
 
-**2026年8月-12月：基础夯实 + 六级备考**
+- [ ] [[01-Records记录/Monthly每月/2026-08|8月]]：系统搭建、资料整理
+- [ ] [[01-Records记录/Monthly每月/2026-09|9月]]：基础开始（开学）
+- [ ] [[01-Records记录/Monthly每月/2026-10|10月]]：基础继续
+- [ ] [[01-Records记录/Monthly每月/2026-11|11月]]：六级冲刺
+- [ ] [[01-Records记录/Monthly每月/2026-12|12月]]：六级考试（12月12日）
 
-- [[01-Records记录/Monthly每月/2026-08|8月]]：系统搭建、资料整理
-- [[01-Records记录/Monthly每月/2026-09|9月]]：基础开始（开学）
-- [[01-Records记录/Monthly每月/2026-10|10月]]：基础继续
-- [[01-Records记录/Monthly每月/2026-11|11月]]：六级冲刺
-- [[01-Records记录/Monthly每月/2026-12|12月]]：六级考试（12月12日）
-
-**2027年1月-3月：基础继续**
-
-- [[01-Records记录/Monthly每月/2027-01|1月]]：寒假集中
-
-**关键里程碑**
-
-- 2026年12月12日：英语六级考试（目标550+）
-- 2027年3月底：基础阶段结束
-- 2027年8月底：强化阶段结束
-- 2027年12月下旬：考研初试
 
 ## ToDo待办
-
-**数学（8月）**
 
 - [ ] 阅读考研数学复习全书基础篇 (due: 2026-08-25)
 - [ ] 制定9月开始的详细学习计划 (due: 2026-08-28)
 - [ ] 收集武忠祥、李永乐视频课资源 (due: 2026-08-23)
+- [ ] 优化843真题格式：改进答案提取逻辑，清理乱码字符 (due: 2026-08-28)
 
-**英语（8月）**
-
-- [ ] 每天背诵100+考研单词（不背单词APP）(due: 2026-08-31)
-- [ ] 每天听力磨耳朵30分钟（BBC/VOA慢速新闻）(due: 2026-08-31)
-- [ ] 了解六级考试题型和评分标准 (due: 2026-08-25)
-- [ ] 收集六级备考资料 (due: 2026-08-28)
-
-**专业课（8月）**
-
-- [ ] 收集王道408、971思维导图等资料 (due: 2026-08-25)
-- [ ] 制定9月开始的数据结构学习计划 (due: 2026-08-28)
-
-**系统搭建**
-
-- [ ] 建立错题本模板 (due: 2026-08-23)
-
-**9月预览**
-
-- [ ] 数学：开始武忠祥高数基础课 (due: 2026-09-01)
-- [ ] 英语：每天150+单词，六级听力 (due: 2026-09-30)
-- [ ] 专业课：王道408数据结构第1-3章 (due: 2026-09-30)
 
 ## Doing进行中
 
@@ -61,28 +27,16 @@ kanban-plugin: board
 
 ## Done已完成
 
-**系统搭建**
-
+**Complete**
 - [x] 年度计划拆分（数学、英语、政治、专业课）
 - [x] 创建Kanban看板系统
 - [x] 整理12篇经验帖PDF为Markdown
 
-**资料收集**
 
-- [x] 阅读843考试大纲
-- [x] 了解专业课考试内容和分值分布
-- [x] 了解数学二考试内容和题型
 
-**今日完成（2026-08-21）**
-
-- [x] 更新agent.md文档
-- [x] 创建月度计划（2026年8月-2027年1月）
-- [x] 创建W34周记录
-- [x] 修复链接、标签规范和考研时间
-- [x] 更新Kanban看板Plan和ToDo
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":false,"lane-width":265,"full-list-lane-width":false,"tag-colors":[],"move-tags":true,"show-relative-date":true,"link-date-to-daily-note":false}
+{"kanban-plugin":"list","list-collapse":[false,false,false,true],"show-checkboxes":false,"lane-width":265,"full-list-lane-width":false,"tag-colors":[],"move-tags":true,"show-relative-date":true,"link-date-to-daily-note":false}
 ```
 %%
