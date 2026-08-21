@@ -1,7 +1,8 @@
 # Obsidian 内部配置
 .obsidian/workspace.json
 .obsidian/app.json
-.obsidian/plugins/realclaudian/data.json
+.obsidian/community-plugins.json
+.obsidian/plugins/*/data.json
 .obsidian/cache/
 .obsidian/workspace-mobile.json
 
@@ -20,3 +21,5 @@ Thumbs.db
 *.swp
 *.swo
 *~
+/.claudian/claudian-settings.json
+/.obsidian/app.json
