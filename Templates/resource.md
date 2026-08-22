@@ -18,30 +18,30 @@ source: "<% await tp.system.prompt("请输入来源渠道（如：官网/学长/
 type: 资源
 ---
 
-# 📚 <% await tp.system.prompt("请输入资源标题") %>
+# <% await tp.system.prompt("请输入资源标题") %>
 
-## 📋 基本信息
+## 基本信息
 - **文件名**：<% await tp.system.prompt("请输入原始文件名") %>
 - **格式**：<% await tp.system.suggester(["PDF", "DOCX", "MP4", "PNG", "其他"], ["PDF", "DOCX", "MP4", "PNG", "其他"]) %>
 - **大小**：<% await tp.system.prompt("请输入文件大小") %>
 - **位置**：`Attachments/<% await tp.system.prompt("请输入子文件夹") %>/<% await tp.system.prompt("请输入文件名") %>`
 
-## 📖 内容摘要
+## 内容摘要
 > （简要描述资源内容）
 
-## 🎯 价值评估
+## 价值评估
 - [ ] 核心必备
 - [ ] 重要参考
 - [ ] 补充材料
 - [ ] 待评估
 
-## 📝 使用计划
+## 使用计划
 > （计划如何使用这个资源）
 
-## 🔗 相关资源
+## 相关资源
 - [[]]
 
-## ⭐ 评分
+## 评分
 | 维度 | 评分(1-5) | 备注 |
 |------|-----------|------|
 | 质量 |  |  |

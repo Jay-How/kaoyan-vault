@@ -10,13 +10,13 @@ updated: 2026-08-22
 status: active
 ---
 
-# 🎓 考研备考助手
+# 考研备考助手
 
 > 清华大学深圳国际研究生院 - IMDT（互动媒体设计与技术）843 考研备考知识库
 
 ---
 
-## 🎯 项目概览
+## 项目概览
 
 | 项目 | 内容 |
 |------|------|
@@ -29,7 +29,7 @@ status: active
 
 ---
 
-## 📊 考试科目结构
+## 考试科目结构
 
 ```
 考研（总分500分）
@@ -49,7 +49,7 @@ status: active
 
 ---
 
-## 📂 目录结构
+## � 目录结构
 
 ```
 kaoyan-vault/
@@ -86,6 +86,10 @@ kaoyan-vault/
 │       ├── 2025年843真题.md
 │       └── 2025年843真题-解析.md
 ├── 04-Errors错题/         # ❌ 薄弱追踪
+│   ├── 01-政治/
+│   ├── 02-英语/
+│   ├── 03-数学/
+│   └── 04-843专业课/
 ├── 05-Experience经验帖/   # 🎓 上岸经验
 ├── 06-Resources资源/      # 📦 资源索引
 │   ├── 01-考纲大纲/
@@ -106,7 +110,7 @@ kaoyan-vault/
 
 ---
 
-## 🏷️ 标签速查
+## � 标签速查
 
 ### 格式
 
@@ -117,8 +121,8 @@ kaoyan-vault/
 ### 类型标签
 
 ```
-#note笔记    #error错题    #knowledge知识    #record记录
-#exam真题    #experience经验    #resource资源
+#note笔记 #error错题 #knowledge知识 #record记录
+#exam真题 #experience经验 #resource资源
 ```
 
 ### 科目标签
@@ -132,12 +136,12 @@ kaoyan-vault/
 ### 特殊标记
 
 ```
-#AI-generated人工智能生成    #important重点    #review复习
+#AI-generated人工智能生成 #important重点 #review复习
 ```
 
 ---
 
-## 📋 属性规范
+## 属性规范
 
 ```yaml
 status: 进行中/待复习/待回顾/已掌握/已归档
@@ -151,7 +155,7 @@ subject: 政治/英语/数学/数据结构/计算机硬件/网络技术/设计�
 
 ---
 
-## 📖 文档索引
+## 文档索引
 
 ### 规范文档
 

@@ -9,16 +9,16 @@ status: 进行中
 type: 记录
 ---
 
-# 📆 <% tp.date.now("YYYY") %> 第 <% tp.date.now("ww") %> 周记录
+# <% tp.date.now("YYYY") %> 第 <% tp.date.now("ww") %> 周记录
 
 **周期**：<% tp.date.now("YYYY-MM-DD") %> ~ <% tp.date.now("YYYY-MM-DD", 7) %>
 
-## 📋 本周计划
+## 本周计划
 - [ ] 目标1
 - [ ] 目标2
 - [ ] 目标3
 
-## 📊 本周复盘
+## 本周复盘
 
 ### 学习统计
 | 科目 | 计划时长 | 实际时长 | 完成率 |
@@ -42,4 +42,4 @@ type: 记录
 
 
 ---
-> 📅 <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建
+> <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建

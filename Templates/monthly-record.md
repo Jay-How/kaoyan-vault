@@ -9,9 +9,9 @@ status: 进行中
 type: 记录
 ---
 
-# 🗓️ <% tp.date.now("YYYY年MM月") %> 月度记录
+# <% tp.date.now("YYYY年MM月") %> 月度记录
 
-## 📋 本月计划
+## 本月计划
 
 ### 重点目标
 1. 
@@ -24,7 +24,7 @@ type: 记录
 - 英语：__小时
 - 政治：__小时
 
-## 📊 本月复盘
+## 本月复盘
 
 ### 各科完成情况
 
@@ -55,4 +55,4 @@ type: 记录
 
 
 ---
-> 📅 <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建
+> <% tp.date.now("YYYY-MM-DD HH:mm") %> 创建

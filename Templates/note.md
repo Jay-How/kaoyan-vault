@@ -20,9 +20,9 @@ subject: "<% await tp.system.suggester(
 chapter: "<% await tp.system.prompt("请输入章节") %>"
 ---
 
-# 📝 <% await tp.system.prompt("请输入笔记标题") %>
+# <% await tp.system.prompt("请输入笔记标题") %>
 
-## 📖 核心概念
+## 核心概念
 
 ### 定义
 
@@ -36,23 +36,23 @@ chapter: "<% await tp.system.prompt("请输入章节") %>"
 ```
 ```
 
-## 💡 理解与反思
+## 理解与反思
 > 
 
-## 🔗 关联知识
+## 关联知识
 - 相关概念：[[]]
 - 前置知识：[[]]
 - 延伸阅读：[[]]
 
-## ❓ 开放问题
+## 开放问题
 - [ ] 
 
-## 📚 参考资料
+## 参考资料
 - 
 
 ---
 
-## 📅 复习记录
+## 复习记录
 | 日期 | 效果 | 备注 |
 |------|------|------|
 | <% tp.date.now("YYYY-MM-DD") %> | 初次记录 | |
