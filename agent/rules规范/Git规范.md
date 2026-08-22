@@ -1,11 +1,11 @@
 ---
 tags:
-  - config/git
+  - configGit
   - AI-generated人工智能生成
 aliases:
   - "Git规范"
 created: "2025-08-21"
-updated: "2025-08-21"
+updated: "2026-08-24"
 status: done
 ---
 

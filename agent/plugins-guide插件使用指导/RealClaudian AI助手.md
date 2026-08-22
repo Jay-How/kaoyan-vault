@@ -1,13 +1,13 @@
 ---
 tags:
-  - plugin-guide
+  - plugin-guide插件指南
   - realclaudian
   - ai
   - AI-generated人工智能生成
 aliases:
   - "RealClaudian使用指南"
 created: "2025-08-20"
-updated: "2025-08-20"
+updated: "2026-08-24"
 status: done
 ---
 

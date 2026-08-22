@@ -11,6 +11,9 @@
 .claudian/
 .claudian/claudian-settings.json
 
+# 独立项目（MCP 测试）
+mimo-mcp/
+
 # 临时文件
 temp_*.txt
 *.tmp
