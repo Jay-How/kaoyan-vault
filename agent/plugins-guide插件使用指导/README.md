@@ -28,6 +28,7 @@ status: done
 | **Kanban** | 看板视图 | 任务管理、计划追踪 | [[Obsidian Kanban 看板视图]] |
 | **Table Editor** | 表格编辑器 | 数据整理、对比分析 | [[Table Editor 表格编辑器]] |
 | **Style Settings** | 样式设置 | 个性化界面、护眼配色 | [[Style Settings 样式设置]] |
+| **Obsidian Desmos** | 数学图形渲染 | 函数图像、数列可视化、极限示意 | [[Obsidian Desmos 数学图形渲染]] |
 | **RealClaudian** | AI 助手 | 知识问答、内容生成 | [[RealClaudian AI助手]] |
 
 ---
