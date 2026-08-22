@@ -1,12 +1,11 @@
 ---
 tags:
   - plugin-guide插件指南
-  - table-editor
   - AI-generated人工智能生成
 aliases:
-  - "Table Editor使用指南"
-created: "2025-08-20"
-updated: "2026-08-24"
+  - Table Editor使用指南
+created: 2025-08-20
+updated: 2026-08-24
 status: done
 ---
 

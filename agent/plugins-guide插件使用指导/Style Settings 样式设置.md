@@ -1,12 +1,11 @@
 ---
 tags:
   - plugin-guide插件指南
-  - style-settings
   - AI-generated人工智能生成
 aliases:
-  - "Style Settings使用指南"
-created: "2025-08-20"
-updated: "2026-08-24"
+  - Style Settings使用指南
+created: 2025-08-20
+updated: 2026-08-24
 status: done
 ---
 

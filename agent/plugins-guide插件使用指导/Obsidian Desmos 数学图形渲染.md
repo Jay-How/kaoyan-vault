@@ -1,14 +1,13 @@
 ---
 tags:
   - plugin-guide插件指南
-  - desmos
   - math数学
   - AI-generated人工智能生成
 aliases:
-  - "Desmos使用指南"
-  - "Desmos图形渲染"
-created: "2026-08-22"
-updated: "2026-08-22"
+  - Desmos使用指南
+  - Desmos图形渲染
+created: 2026-08-22
+updated: 2026-08-22
 status: done
 ---
 

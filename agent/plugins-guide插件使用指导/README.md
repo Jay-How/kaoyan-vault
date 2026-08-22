@@ -1,12 +1,11 @@
 ---
 tags:
   - plugin-guide插件指南
-  - index
   - AI-generated人工智能生成
 aliases:
-  - "插件指南索引"
-created: "2025-08-20"
-updated: "2026-08-24"
+  - 插件指南索引
+created: 2025-08-20
+updated: 2026-08-24
 status: done
 ---
 
