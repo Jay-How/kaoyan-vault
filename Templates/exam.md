@@ -2,8 +2,8 @@
 tags:
   - exam真题
   - <% await tp.system.suggester(
-      ["ds数据结构", "hardware计算机硬件", "network网络技术", "theory设计理论", "practice设计实践", "math数学"],
-      ["ds数据结构", "hardware计算机硬件", "network网络技术", "theory设计理论", "practice设计实践", "math数学"]
+      ["ds数据结构", "hardware计算机硬件", "network网络技术", "ml机器学习", "theory设计理论", "practice设计实践", "math数学"],
+      ["ds数据结构", "hardware计算机硬件", "network网络技术", "ml机器学习", "theory设计理论", "practice设计实践", "math数学"]
     ) %>
   - AI-generated人工智能生成
 aliases:
@@ -14,8 +14,8 @@ status: 待复习
 priority: 高
 type: 真题
 subject: "<% await tp.system.suggester(
-    ["数据结构", "计算机硬件", "网络技术", "设计理论", "设计实践", "数学"],
-    ["数据结构", "计算机硬件", "网络技术", "设计理论", "设计实践", "数学"]
+    ["数据结构", "计算机硬件", "网络技术", "机器学习", "设计理论", "设计实践", "数学"],
+    ["数据结构", "计算机硬件", "网络技术", "机器学习", "设计理论", "设计实践", "数学"]
   ) %>"
 year: <% await tp.system.prompt("请输入年份（如：2020）") %>
 ---
