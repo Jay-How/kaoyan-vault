@@ -1,11 +1,5 @@
-# Obsidian 内部配置
-.obsidian/workspace.json
-.obsidian/app.json
-.obsidian/community-plugins.json
-.obsidian/plugins/*/data.json
-.obsidian/cache/
-.obsidian/workspace-mobile.json
-.obsidian/plugins/obsidian-icon-folder/
+# Obsidian 内部配置（本地文件，不纳入版本控制）
+.obsidian/
 
 # Claudian AI助手配置
 .claudian/
