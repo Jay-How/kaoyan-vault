@@ -9,16 +9,17 @@ status: 进行中
 type: 记录
 ---
 
-# 📆 {{date:YYYY}} 第 {{date:ww}} 周记录
+# {{date:YYYY}} 第 {{date:ww}} 周记录
 
 **周期**：{{date:YYYY-MM-DD}} ~ {{date+7d:YYYY-MM-DD}}
 
-## 📋 本周计划
+## 本周计划
+
 - [ ] 目标1
 - [ ] 目标2
 - [ ] 目标3
 
-## 📊 本周复盘
+## 本周复盘
 
 ### 学习统计
 | 科目 | 计划时长 | 实际时长 | 完成率 |
@@ -42,4 +43,4 @@ type: 记录
 
 
 ---
-> 📅 {{date:YYYY-MM-DD HH:mm}} 创建
+> {{date:YYYY-MM-DD HH:mm}} 创建

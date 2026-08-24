@@ -9,9 +9,10 @@ status: 进行中
 type: 记录
 ---
 
-# <% tp.date.now("YYYY-MM-DD dddd") %> 每日记录
+# <% tp.date.now("YYYY-MM-DD") %> 每日记录
 
 ## 今日计划
+
 - [ ] 目标1
 - [ ] 目标2
 - [ ] 目标3
