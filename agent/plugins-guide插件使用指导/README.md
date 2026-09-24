@@ -19,16 +19,16 @@ status: done
 
 | 插件 | 功能 | 考研用途 | 文档链接 |
 |------|------|----------|----------|
-| **Templater** | 高级模板引擎 | 智能模板、自动填充 | [[Templater 高级模板引擎]] |
-| **Dataview** | 数据查询 | 统计报表、进度追踪 | [[Dataview 数据查询]] |
-| **Calendar** | 日历视图 | 日记管理、时间可视化 | [[Calendar 日历视图]] |
-| **Periodic Notes** | 周期笔记 | 日/周/月/年笔记管理 | [[Periodic Notes 周期笔记]] |
-| **Obsidian Git** | 版本控制 | 数据备份、多端同步 | [[Obsidian Git 版本控制]] |
-| **Kanban** | 看板视图 | 任务管理、计划追踪 | [[Obsidian Kanban 看板视图]] |
-| **Table Editor** | 表格编辑器 | 数据整理、对比分析 | [[Table Editor 表格编辑器]] |
-| **Style Settings** | 样式设置 | 个性化界面、护眼配色 | [[Style Settings 样式设置]] |
-| **Obsidian Desmos** | 数学图形渲染 | 函数图像、数列可视化、极限示意 | [[Obsidian Desmos 数学图形渲染]] |
-| **RealClaudian** | AI 助手 | 知识问答、内容生成 | [[RealClaudian AI助手]] |
+| **Templater** | 高级模板引擎 | 智能模板、自动填充 | [[Templater-高级模板引擎]] |
+| **Dataview** | 数据查询 | 统计报表、进度追踪 | [[Dataview-数据查询]] |
+| **Calendar** | 日历视图 | 日记管理、时间可视化 | [[Calendar-日历视图]] |
+| **Periodic Notes** | 周期笔记 | 日/周/月/年笔记管理 | [[Periodic-Notes-周期笔记]] |
+| **Obsidian Git** | 版本控制 | 数据备份、多端同步 | [[Obsidian-Git-版本控制]] |
+| **Kanban** | 看板视图 | 任务管理、计划追踪 | [[Obsidian-Kanban-看板视图]] |
+| **Table Editor** | 表格编辑器 | 数据整理、对比分析 | [[Table-Editor-表格编辑器]] |
+| **Style Settings** | 样式设置 | 个性化界面、护眼配色 | [[Style-Settings-样式设置]] |
+| **Obsidian Desmos** | 数学图形渲染 | 函数图像、数列可视化、极限示意 | [[Obsidian-Desmos-数学图形渲染]] |
+| **RealClaudian** | AI 助手 | 知识问答、内容生成 | [[RealClaudian-AI助手]] |
 
 ---
 
@@ -38,15 +38,15 @@ status: done
 
 | 场景 | 推荐插件 |
 |------|----------|
-| 创建智能模板 | [[Templater 高级模板引擎]] |
-| 统计学习进度 | [[Dataview 数据查询]] |
-| 管理每日日记 | [[Calendar 日历视图]], [[Periodic Notes 周期笔记]] |
-| 周期性复盘 | [[Periodic Notes 周期笔记]] |
-| 备份学习数据 | [[Obsidian Git 版本控制]] |
-| 管理学习任务 | [[Obsidian Kanban 看板视图]] |
-| 整理数据表格 | [[Table Editor 表格编辑器]] |
-| 自定义界面 | [[Style Settings 样式设置]] |
-| AI 辅助学习 | [[RealClaudian AI助手]] |
+| 创建智能模板 | [[Templater-高级模板引擎]] |
+| 统计学习进度 | [[Dataview-数据查询]] |
+| 管理每日日记 | [[Calendar-日历视图]], [[Periodic-Notes-周期笔记]] |
+| 周期性复盘 | [[Periodic-Notes-周期笔记]] |
+| 备份学习数据 | [[Obsidian-Git-版本控制]] |
+| 管理学习任务 | [[Obsidian-Kanban-看板视图]] |
+| 整理数据表格 | [[Table-Editor-表格编辑器]] |
+| 自定义界面 | [[Style-Settings-样式设置]] |
+| AI 辅助学习 | [[RealClaudian-AI助手]] |
 
 ### 按学习阶段
 

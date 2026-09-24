@@ -16,7 +16,7 @@ priority: 高
 source: 经验帖
 type: 资源
 subject: 综合
-created: "2025-08-21"
+created: 2025-08-21
 ---
 
 # IMDT考研经验贴（初试第一&复试第一）

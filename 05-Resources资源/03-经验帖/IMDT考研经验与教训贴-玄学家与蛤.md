@@ -8,7 +8,7 @@ priority: 中
 source: 经验帖
 type: 资源
 subject: 综合
-created: "2025-08-21"
+created: 2025-08-21
 ---
 
 # IMDT考研经验与教训贴-玄学家与蛤
