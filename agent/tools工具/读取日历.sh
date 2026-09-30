@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #
-# 读取 macOS 日历（含已同步的 Google 账户），展开重复日程，输出课程表与可用空窗。
+# 读取 macOS 日历（含已同步的 Google 账户），展开重复日程，输出课程表与空闲时段。
 #
 # 用法：
 #   ./读取日历.sh                 # 默认：未来 14 天日程明细
 #   ./读取日历.sh upcoming 21     # 未来 21 天明细
 #   ./读取日历.sh timetable       # 本学期固定课表（按星期几汇总）
-#   ./读取日历.sh free            # 每周可用空窗
+#   ./读取日历.sh free            # 每周空闲时段
 #   ./读取日历.sh raw             # 原始导出，不展开、不加工
 #
 # 依赖：macOS + osascript + python3
@@ -164,7 +164,7 @@ if mode == "timetable":
 
 elif mode == "free":
     print("=" * 62)
-    print("每周可用空窗（活跃时段按 08:00-23:00 估算，只列 1 小时以上）")
+    print("每周空闲时段（按 08:00-23:00 估算，只列 1 小时以上）")
     print("=" * 62)
     BUSY_FROM, BUSY_TO = dt.time(8, 0), dt.time(23, 0)
 
@@ -185,7 +185,7 @@ elif mode == "free":
     def show(blocks, indent):
         gs = gaps(blocks)
         if not gs:
-            print(f"{indent}（无 1 小时以上空窗）")
+            print(f"{indent}（没有 1 小时以上的空闲时段）")
         for a, b, m in gs:
             print(f"{indent}{a.strftime('%H:%M')}-{b.strftime('%H:%M')}  {m/60:.1f}h")
 
@@ -201,9 +201,9 @@ elif mode == "free":
             continue
         if bi:
             print(f"\n{WD[wd]}  （含隔周课程，分两种情况）")
-            print("  实验周")
+            print("  有实验周")
             show(weekly | bi, "    ")
-            print("  轮空周")
+            print("  无实验周")
             show(weekly, "    ")
         else:
             print(f"\n{WD[wd]}")
