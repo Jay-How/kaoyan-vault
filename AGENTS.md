@@ -74,7 +74,7 @@ kaoyan-vault/
 ├── 06-Interview复试/      # 复试准备
 ├── 07-教资教师资格证/     # 教师资格证备考与任教路径（与考研并行的第二目标）
 ├── Templates/             # 模板库
-└── agent/                 # 规范与指南（rules规范/ref参考/plugins-guide/log工作日志）
+└── agent/                 # 规范、指南与工具（rules规范/ref参考/workflows工作流/tools工具/plugins-guide/log工作日志）
 ```
 
 ---
