@@ -75,6 +75,18 @@ on run
 end run
 APPLESCRIPT
 
+# Calendar 应用未运行时，AppleScript 会报 "应用程序没有运行 (-600)"。
+# 先确保它在运行，必要时自动启动并等待就绪。
+if ! pgrep -x Calendar >/dev/null 2>&1; then
+  echo "提示：Calendar 未运行，自动启动中…" >&2
+  open -a Calendar
+  for _ in $(seq 1 15); do
+    pgrep -x Calendar >/dev/null 2>&1 && break
+    sleep 1
+  done
+  sleep 3
+fi
+
 osascript "$TMPAS" > "$TMPTSV"
 
 python3 - "$MODE" "$ARG" "$TMPTSV" <<'PY'
